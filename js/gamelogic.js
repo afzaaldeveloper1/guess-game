@@ -1,5 +1,5 @@
 $("#begin").click(function() {
-	$("button").click(function() {
+	$(".game").click(function() {
 		var answer = $( this ).val();
 		var pcPick = Math.random();
 		pcPick = 3*pcPick;
